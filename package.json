@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/markleonard84/project-3/issues"
   },
-  "homepage": "https://github.com/markleonard84/project-3#readme"
+  "homepage": "https://github.com/markleonard84/project-3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
